@@ -3,7 +3,7 @@ import sys
 
 def main():
     pg.display.set_caption("はじめてのPygame")
-    screen = pg.display.set_mode((800, 600))
+    screen = pg.display.set_mode((400, 300))
     clock = pg.time.Clock()
     font = pg.font.Font(None, 80)
 
